@@ -1,5 +1,4 @@
 # System-Account-Modifier
-"System-Account-Modifier" is a program that helps control which users are displayed on the login screen of a system. It allows hiding or revealing specific users, providing more precise control over the visibility of user accounts.
 
 ## What is it?
 
@@ -7,10 +6,12 @@
 
 ## How to Use
 
-1. Make sure you run the script with superuser privileges.
-2. Run the script, and it'll show you a list of users and whether they're visible or hidden.
-3. Choose a user to change their visibility status.
-4. The script will update the config file, and you're good to go.
+0. Clearly, you should be using a Linux system; in my case, I use Zorin OS.
+2. Make sure you run the script (start.py) with superuser privileges.
+3. Run the script, and it'll show you a list of users and whether they're visible or hidden.
+4. Choose a user to change their visibility status.
+5. The script will update the config file.
+6. If your user is still visible/hidden in the settings, you may need to log out of your current session (or restart), and you're good to go.
 
 ## License
 
